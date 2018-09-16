@@ -1,5 +1,96 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: #333344;
+}
+
+.App {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+header {
+	color: white;
+}
+
+.quote-box {
+	width: 80vw;
+	height: 70vh;
+	margin: 5vh auto;
+	display: grid;
+	justify-content: center;
+	border: 1px solid black;
+	background-image: url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.quote-container {
+	margin: 4%;
+	/* transform: rotate(-12deg) */
+}
+
+.quote {
+	font-size: 10vmin;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.blockquote-footer {
+	font-size: 3vmax;
+	align-self: flex-end;
+}
+
+footer {
+	align-self: end;
+	text-align: center;
+}
+
+/* --------------- Background image Overlays --------------- */
+/* --------------- (.bg + color code) generated in app.js  --------------- */
+.bg-1 {
+	/* bgColor = #0FAAC6 */
+	background: linear-gradient(rgba(15, 170, 198, 0.5), rgba(17, 204, 238, 0.5)),
+		url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
+}
+.bg-2 {
+	/* bgColor = #ad0be5 */
+	background: linear-gradient(rgba(173, 11, 229, 0.5), rgba(173, 11, 229, 0.5)),
+		url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-3 {
+	/* bgColor = #74b135 */
+	background: linear-gradient(rgba(116, 177, 53, 0.5), rgba(116, 177, 53, 0.5)),
+		url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
+}
+.bg-4 {
+	/* bgColor = #9155ed */
+	background: linear-gradient(rgba(145, 85, 237, 0.5), rgba(145, 85, 237, 0.5)),
+		url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
+}
+.bg-5 {
+	/* bgColor = $fb1 */
+	background: linear-gradient(rgba(255, 187, 17, 0.5), rgba(255, 187, 17, 0.5)),
+		url(https://source.unsplash.com/random);
+	background-size: cover;
+	background-position: center;
 }
