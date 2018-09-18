@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames/bind';
 import Credits from './Components/Credits';
-import Background from './Components/background';
+import Main from './Components/Main';
 import Header from './Components/header';
 import { Colors, Quotes, Sources } from './Components/Data';
 import { randNumGen } from './Helpers';
@@ -36,7 +36,7 @@ class App extends Component {
 		return (
 			<div className="App" id="quote-box">
 				<Header />
-				<Background
+				<Main
 					colorIndex={this.state.colorIndex}
 					quoteIndex={this.state.quoteIndex}
 					sourceIndex={this.state.sourceIndex}

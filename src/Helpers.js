@@ -1,4 +1,4 @@
 export function randNumGen(arr) {
-	const randNum = Math.ceil(Math.random() * (arr.length - 1));
+	const randNum = Math.floor(Math.random() * arr.length);
 	return randNum;
 }
