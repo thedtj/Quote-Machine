@@ -58,14 +58,14 @@ footer {
 
 /* --------------- Background image Overlays --------------- */
 /* --------------- (.bg + color code) generated in app.js  --------------- */
-.bg-1 {
+.bg-0 {
 	/* bgColor = #0FAAC6 */
-	background: linear-gradient(rgba(15, 170, 198, 0.5), rgba(17, 204, 238, 0.5)),
+	background: linear-gradient(rgba(15, 170, 198, 0.5), rgba(15, 170, 198, 0.5)),
 		url(https://source.unsplash.com/random);
 	background-size: cover;
 	background-position: center;
 }
-.bg-2 {
+.bg-1 {
 	/* bgColor = #ad0be5 */
 	background: linear-gradient(rgba(173, 11, 229, 0.5), rgba(173, 11, 229, 0.5)),
 		url(https://source.unsplash.com/random);
@@ -73,21 +73,21 @@ footer {
 	background-position: center;
 }
 
-.bg-3 {
+.bg-2 {
 	/* bgColor = #74b135 */
 	background: linear-gradient(rgba(116, 177, 53, 0.5), rgba(116, 177, 53, 0.5)),
 		url(https://source.unsplash.com/random);
 	background-size: cover;
 	background-position: center;
 }
-.bg-4 {
+.bg-3 {
 	/* bgColor = #9155ed */
 	background: linear-gradient(rgba(145, 85, 237, 0.5), rgba(145, 85, 237, 0.5)),
 		url(https://source.unsplash.com/random);
 	background-size: cover;
 	background-position: center;
 }
-.bg-5 {
+.bg-4 {
 	/* bgColor = $fb1 */
 	background: linear-gradient(rgba(255, 187, 17, 0.5), rgba(255, 187, 17, 0.5)),
 		url(https://source.unsplash.com/random);

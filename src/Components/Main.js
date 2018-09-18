@@ -6,7 +6,7 @@ import Quote from './quote';
 // const bgColors = ['1ce', 'ad0be5', '74b135', '9155ed', 'fb1'];
 // const bgColor = Colors[Math.floor(Math.random() * (Colors.length - 1))];
 
-class Background extends Component {
+class Main extends Component {
 	static propTypes = {
 		color: PropTypes.number
 	};
@@ -28,4 +28,4 @@ class Background extends Component {
 	}
 }
 
-export default Background;
+export default Main;
