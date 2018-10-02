@@ -24,7 +24,6 @@ class App extends Component {
 			this.setIndexes();
 		} else {
 			this.setState({
-				...this.state,
 				colorIndex: ColorNum,
 				quoteIndex: QuoteNum,
 				sourceIndex: SourceNum

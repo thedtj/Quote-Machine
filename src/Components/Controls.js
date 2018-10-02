@@ -5,7 +5,7 @@ const Controls = ({ setIndexes }) => {
 	return (
 		<React.Fragment>
 			<button
-				className="new-quote btn btn-primary"
+				className="controls__btn controls__btn--newQuote"
 				id="new-quote"
 				onClick={setIndexes}
 			>
@@ -16,7 +16,9 @@ const Controls = ({ setIndexes }) => {
 				target="_blank"
 				id="tweet-quote"
 			>
-				<button className="tweet btn btn-danger">Tweet this!</button>
+				<button className="controls__btn controls__btn--tweet">
+					Tweet this!
+				</button>
 			</a>
 		</React.Fragment>
 	);
