@@ -14,7 +14,7 @@ class Main extends Component {
 	render() {
 		const bgColor = 'bg-' + this.props.colorIndex;
 		const classes = classNames({
-			'quote-box': true,
+			quoteBox: true,
 			[bgColor]: true
 		});
 		return (

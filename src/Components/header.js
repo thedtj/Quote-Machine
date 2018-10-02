@@ -4,7 +4,9 @@ export default class Header extends Component {
 	render() {
 		return (
 			<React.Fragment>
-				<header className="head">WWDTJS: What would Dan Todd Say?</header>
+				<header className="head">
+					<h1>WWDTJS: What would Dan Todd Say?</h1>
+				</header>
 			</React.Fragment>
 		);
 	}
